@@ -221,11 +221,11 @@ const fs_1 = __nccwpck_require__(747);
 const util_1 = __nccwpck_require__(669);
 const writeFileAsync = util_1.promisify(fs_1.writeFile);
 const name = 'ngrok';
-const defaultVersion = '4VmDzA7iaHb';
+const defaultVersion = 'bNyj1mQVY4c';
 const fileSufix = '.zip';
 const downloadUrlScheme = 'https://bin.equinox.io/c/%s/%s%s';
 function getFullName() {
-    return util.format('ngrok-stable-%s-amd64', utils_1.getOsType());
+    return util.format('ngrok-v3-stable-%s-amd64', utils_1.getOsType());
 }
 function writeTunnel(path, token) {
     return __awaiter(this, void 0, void 0, function* () {
