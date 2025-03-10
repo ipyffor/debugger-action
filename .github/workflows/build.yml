@@ -17,4 +17,5 @@ jobs:
           npm install
       - name: run all
         run: |
-          NODE_OPTIONS=--openssl-legacy-provider npm run all
+          NODE_OPTIONS=--openssl-legacy-provider npm run all && ls -hl && pwd
+          
