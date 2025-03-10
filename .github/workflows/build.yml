@@ -7,7 +7,6 @@ on:
       - dev
       - 'releases/*'
 
-
 jobs:
   test:
     runs-on: ubuntu-latest
